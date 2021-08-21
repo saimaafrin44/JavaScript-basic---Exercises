@@ -1,0 +1,30 @@
+<script>
+  const var_name = "abcd";
+  const n = 120;
+  this[var_name] = n;
+  console.log(this[var_name]);
+
+  //-------------------------------------------------------
+
+  function difference(n) {
+    if (n <= 11) return 11 - n;
+    //greater than 11
+    else return (n - 11) * 2;
+  }
+  console.log(difference(33));
+  console.log(difference(56));
+
+  //---------------------------------------------------------------------
+
+  function tripleSum(x, y) {
+    if (x == y) {
+      return 3 * (x + y);
+    } else {
+      return x + y;
+    }
+  }
+  console.log(tripleSum(10, 90));
+  console.log(tripleSum(1, 10));
+
+  //---------------------------------------------------------------------------------
+</script>
